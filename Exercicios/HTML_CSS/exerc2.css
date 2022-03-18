@@ -1,0 +1,35 @@
+body{
+  margin: 0 auto;
+  width: 600px;
+}
+
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 600px;
+}
+
+thead {
+  background-color: #78b200;
+  color: white;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+tr:nth-child(even){background-color: #f7f7f7;}
+
+tr:nth-child(odd) {background: rgb(230, 230, 230)}
+
+td:nth-child(2){color: rgb(0, 26, 255);}
+
+#cabecalho {
+  background-color: #78b200;
+}

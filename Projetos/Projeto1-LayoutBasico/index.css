@@ -1,0 +1,129 @@
+body, div{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns: 15% 85%;
+  grid-template-rows: 100px 700px 100px;
+  grid-template-areas: 'myArea myArea'
+  'colune conteude'
+  'rodape rodape';
+  font-family: monospace;
+}
+
+.header{
+  background-color:white;
+  grid-area: myArea;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  border-style: solid;
+  border-width: small;
+}
+
+.logo-name {
+  font-size: 30px;
+  color: darkblue;
+}
+
+.menu{
+  flex: 2;
+  text-align:center;
+  font-size: 20px;
+  padding: 10px;
+}
+  
+.sair{
+  flex: 1;
+  text-align: flex-end;
+  font-size: 20px;
+}
+
+.menu-lateral{
+  background-color:white;
+  grid-area: colune;
+  border-style: solid;
+  border-width: small;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.conteudo-principal{
+  background:white;
+  grid-area: conteude;
+  border-style: solid;
+  border-width: small;
+}
+
+.grid-window{
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  background-color: lightblue;
+  grid-template-areas:"conteudo1 conteudo2 conteudo3 conteudo4"
+  "cont cont cont0 cont0";
+  height:500px;
+  width: 95%;
+  padding: 10px;
+  border-style: solid;
+  border-width: 20px;
+  border-color: white;
+  font-family: monospace;
+  border-spacing: 5em;
+}
+
+.coluna{
+  flex: 1;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 25px;
+}
+  
+.conteudo{  
+  grid-area: cont;
+  border-radius: 10px;
+} 
+
+.conteudo1{
+  grid-area: conteudo1;
+  border-radius: 10px;
+}
+
+.cont2{ 
+  grid-area: cont0;
+  border-radius: 10px;
+}
+  
+.conteudo2{
+  grid-area: conteudo2;
+  border-radius: 10px;
+}
+
+.conteudo3{
+  grid-area: conteudo3;
+  border-radius: 10px;
+}
+  
+.conteudo4{
+  grid-area: conteudo4;
+  border-radius: 10px;
+}
+  
+.footer{
+  background-color: white;
+  grid-area: rodape;
+  border-style: solid;
+  border-width: small;
+  font-size: 25px;
+}
+
+.border{
+  font-size: 15;
+  border-style: solid;
+  border-width: small;
+  border-color: blue;
+  border-spacing: 5em;
+  margin: 10px;
+}

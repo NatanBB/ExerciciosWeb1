@@ -1,49 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
-  <title>Exercício FlexBox</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto</title>
 </head>
 <body>
-  <div class="grid">
-    <div class="header">
-      <div>
-        <img src="https://img.ibxk.com.br/2019/03/22/22182850441382.jpg" width="80" height="80">
-      </div>
-      <div class="logo-name">
-        Firefox
-      </div>
-      <div class="menu">Home</div>
-      <div class="menu">Produtos</div>
-      <div class="menu">Serviços</div>
-      <div class="menu">Sobre</div>
-      <div class="sair">Usuario</div>
-      <div class="sair">Sair </div>
+    <header class="header-container">
+        <div class="header-img">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Firefox_logo%2C_2017.png" width="80" height="80">
+        </div>
+        <div class="text-header">
+            Firefox
+        </div>
+        <div class="navigation">
+            <nav class="main-menu">
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Serviços</li>
+                <li>Sobre</li>
+            </nav>
+            <nav class="user-menu">
+                <li>Usuário</li>
+                <li>Sair</li>
+            </nav>
+        </div>
+    </header>
+
+    <div class="list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+        <li>Item 7</li>
+        <li>Item 8</li>
     </div>
-    <div class ="menu-lateral">
-      <div class="coluna">Item 1</div>
-      <div class="coluna">Item 2</div>
-      <div class="coluna">Item 3</div>
-      <div class="coluna">Item 4</div>
-      <div class="coluna">Item 5</div>
-      <div class="coluna">Item 6</div>
-      <div class="coluna">Item 7</div>
-      <div class="coluna">Item 8</div>
+
+    <div class="content">
+        <section class="area-content">
+            <article class="item-content">Conteúdo 1</article>
+            <article class="item-content">Conteúdo 2</article>
+            <article class="item-content">Conteúdo 3</article>
+            <article class="item-content">Conteúdo 4</article>
+            <article class="item-content">Conteúdo 5</article>
+            <article class="item-content">Conteúdo 6</article>
+        </section>
     </div>
-    <div class ="conteudo-principal">
-      <div class="grid-window">
-        <div class="conteudo1 border">Conteúdo 1</div>
-        <div class="conteudo2 border">Conteúdo 2</div>
-        <div class="conteudo3 border">Conteúdo 3</div>
-        <div class="conteudo4 border">Conteúdo 4</div>
-        <div class="conteudo border">Conteúdo 5</div>
-        <div class="cont2 border">Conteúdo 6</div>
-      </div>
-    </div>
-    <div class ="footer">Footer</div>
-  </div>
+
+    <footer>Footer</footer>
 </body>
 </html>
